@@ -68,7 +68,7 @@
     
     [blueView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(100);  // 当定义了MAS_SHORTHAND_GLOBALS宏后，mas_equalTo和equalTo都会对参数进行自动包装。
-        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(100);
         make.right.equalTo(self.view.mas_right).offset(-20);
         make.top.equalTo(self.view.mas_top).offset(20);
     }];
